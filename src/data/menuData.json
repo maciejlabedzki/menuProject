@@ -1,106 +1,128 @@
-[
+{
+  "data": [
     {
-        "displayText": "Well Performance Analysis",
-        "type": "GROUP",
-        "nodes": [
-            {
-                "displayText": "Inflow Performance",
-                "type": "PAGE",
-                "nodes": []
-            },
-            {
-                "displayText": "Vertical Lift Performance",
-                "type": "PAGE",
-                "nodes": []
-            },
-            {
-                "displayText": "System Nodal",
-                "type": "PAGE",
-                "nodes": []
-            },
-            {
-                "displayText": "Sensitivity",
-                "type": "PAGE",
-                "nodes": []
-            },
-            {
-                "displayText": "Forecasting",
-                "type": "PAGE",
-                "nodes": []
-            },
-            {
-                "displayText": "Bottomhole Pressure",
-                "type": "PAGE",
-                "nodes": []
-            },
-            {
-                "displayText": "Productivity Index",
-                "type": "PAGE",
-                "nodes": []
-            },
-            {
-                "displayText": "Diagnostics",
-                "type": "PAGE",
-                "nodes": []
-            }
-        ]
+      "displayText": "Well Performance Analysis",
+      "iconName": "WPA",
+      "type": "GROUP",
+      "nodes": [
+        {
+          "displayText": "Inflow Performance",
+          "iconName": "IPR",
+          "type": "PAGE",
+          "nodes": []
+        },
+        {
+          "displayText": "Vertical Lift Performance",
+          "iconName": "VLP",
+          "type": "PAGE",
+          "nodes": []
+        },
+        {
+          "displayText": "System Nodal",
+          "iconName": "SYS",
+          "type": "PAGE",
+          "nodes": []
+        },
+        {
+          "displayText": "Sensitivity",
+          "iconName": "SEN",
+          "type": "PAGE",
+          "nodes": []
+        },
+        {
+          "displayText": "Forecasting",
+          "iconName": "FC",
+          "type": "PAGE",
+          "nodes": []
+        },
+        {
+          "displayText": "Bottomhole Pressure",
+          "iconName": "BHP",
+          "type": "PAGE",
+          "nodes": []
+        },
+        {
+          "displayText": "Productivity Index",
+          "iconName": "PI",
+          "type": "PAGE",
+          "nodes": []
+        },
+        {
+          "displayText": "Diagnostics",
+          "iconName": "DIA",
+          "type": "PAGE",
+          "nodes": []
+        }
+      ]
     },
     {
-        "displayText": "Production Optimization",
-        "type": "GROUP",
-        "nodes": [
-            {
-                "displayText": "Event Detection",
-                "type": "PAGE",
-                "nodes": []
-            },
-            {
-                "displayText": "Virtual Metering",
-                "type": "PAGE",
-                "nodes": []
-            }
-        ]
+      "displayText": "Production Optimization",
+      "iconName": "PO",
+      "type": "GROUP",
+      "nodes": [
+        {
+          "displayText": "Event Detection",
+          "iconName": "EV",
+          "type": "PAGE",
+          "nodes": []
+        },
+        {
+          "displayText": "Virtual Metering",
+          "iconName": "VM",
+          "type": "PAGE",
+          "nodes": []
+        }
+      ]
     },
     {
-        "displayText": "Reservoir Surveillance",
-        "type": "GROUP",
-        "nodes": [
-            {
-                "displayText": "Flood Efficiency",
-                "type": "PAGE",
-                "nodes": []
-            },
-            {
-                "displayText": "Material Balance",
-                "type": "PAGE",
-                "nodes": []
-            }
-        ]
+      "displayText": "Reservoir Surveillance",
+      "iconName": "RS",
+      "type": "GROUP",
+      "nodes": [
+        {
+          "displayText": "Flood Efficiency",
+          "iconName": "FE",
+          "type": "PAGE",
+          "nodes": []
+        },
+        {
+          "displayText": "Material Balance",
+          "iconName": "MB",
+          "type": "PAGE",
+          "nodes": []
+        }
+      ]
     },
     {
-        "displayText": "Apps",
-        "type": "GROUP",
-        "nodes": [
-            {
-                "displayText": "Graph Network Analysis",
-                "type": "PAGE",
-                "nodes": []
-            },
-            {
-                "displayText": "Optimization Solver",
-                "type": "PAGE",
-                "nodes": []
-            },
-			{
-                "displayText": "ML Proxy Model Builder",
-                "type": "PAGE",
-                "nodes": []
-            },
-            {
-                "displayText": "Time Series Analysis",
-                "type": "PAGE",
-                "nodes": []
-            }
-        ]
+      "displayText": "Apps",
+      "iconName": "APP",
+      "type": "GROUP",
+      "nodes": [
+        {
+          "displayText": "Graph Network Analysis",
+          "iconName": "GNA",
+          "type": "PAGE",
+          "nodes": []
+        },
+        {
+          "displayText": "Optimization Solver",
+          "iconName": "OS",
+          "type": "PAGE",
+          "nodes": []
+        },
+        {
+          "displayText": "ML Proxy Model Builder",
+          "iconName": "PMB",
+          "type": "PAGE",
+          "nodes": []
+        },
+        {
+          "displayText": "Time Series Analysis",
+          "iconName": "TSA",
+          "type": "PAGE",
+          "nodes": []
+        }
+      ]
     }
-]
+  ]
+}

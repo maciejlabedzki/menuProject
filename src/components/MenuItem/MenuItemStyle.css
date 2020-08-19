@@ -1,0 +1,58 @@
+.accordion-item {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-radius: 0 !important;
+}
+
+.accordion-item:hover {
+  background: rgb(255 255 255 / 6%) !important;
+}
+
+.accordion-item:hover .accordion-item-name {
+  color: #e6e6e6;
+}
+
+.accordion-item-icon-name {
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  color: white;
+  border-radius: 10px;
+  font-size: 17px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: 19px;
+  background: rgb(177, 37, 239);
+  background: -moz-linear-gradient(
+    left,
+    rgba(177, 37, 239, 1) 0%,
+    rgba(131, 100, 251, 1) 70%,
+    rgba(118, 120, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(177, 37, 239, 1) 0%,
+    rgba(131, 100, 251, 1) 70%,
+    rgba(118, 120, 255, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(177, 37, 239, 1) 0%,
+    rgba(131, 100, 251, 1) 70%,
+    rgba(118, 120, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b125ef', endColorstr='#7678ff',GradientType=1 );
+}
+
+.accordion-item-name {
+  position: absolute;
+  font-size: 13px;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 15px;
+  padding: 0px 6px;
+  color: rgb(242 242 242 / 0.25);
+  top: 60px;
+  text-transform: capitalize;
+}
