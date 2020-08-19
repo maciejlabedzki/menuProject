@@ -7,7 +7,7 @@ import Menu from "../Menu/Menu";
 import Header from "../Header/Header";
 
 // STYLE
-import "./App.css";
+import "./App.scss";
 
 // TOOLS
 import validateData from "../../tools/validateData";

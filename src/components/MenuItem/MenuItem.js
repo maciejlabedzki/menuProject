@@ -6,7 +6,7 @@ import { connect } from "react-redux";
 import Button from "@material-ui/core/Button";
 
 // STYLE
-import "./MenuItemStyle.css";
+import "./MenuItemStyle.scss";
 
 function MenuItem({ name, iconName, dispatch }) {
   return (

@@ -1,13 +1,15 @@
+// LIBS
 import React from "react";
 import ReactDOM from "react-dom";
-
-import App from "./components/App/App";
 import * as serviceWorker from "./serviceWorker";
-
 import rootReducer from "./reducers";
 import { Provider } from "react-redux";
 import { createStore, applyMiddleware } from "redux";
 
+// COMPONENTS
+import App from "./components/App/App";
+
+// MIDDLEWARE
 import thunk from "redux-thunk";
 import logger from "redux-logger";
 
