@@ -1,3 +1,17 @@
+## First run the server
+
+```js
+npm run server
+```
+
+## Run the app
+
+```js
+npm run start
+```
+
+## More Information
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
