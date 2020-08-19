@@ -1,3 +1,9 @@
+## Instal npm
+
+```js
+npm install
+```
+
 ## First run the server
 
 ```js
