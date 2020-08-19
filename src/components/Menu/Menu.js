@@ -99,12 +99,12 @@ function Menu({ menuStatus, dataMenu }) {
                 <AccordionDetails className="accordion-details">
                   <Grid container spacing={0}>
                     {item["nodes"]?.map((nodeItem) => (
-                      <MenuItem
-                        xs={4}
-                        key={nodeItem.displayText}
-                        name={nodeItem.displayText}
-                        iconName={nodeItem.iconName}
-                      />
+                      <Grid item xs={4} key={nodeItem.displayText}>
+                        <MenuItem
+                          name={nodeItem.displayText}
+                          iconName={nodeItem.iconName}
+                        />
+                      </Grid>
                     ))}
                   </Grid>
                 </AccordionDetails>
