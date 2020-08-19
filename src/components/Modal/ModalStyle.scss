@@ -1,0 +1,31 @@
+.simple-modal-title {
+  background: #0e0e0e;
+  padding: 0px 0 0px 10px;
+  margin: 0;
+  font-size: 16px;
+  border-bottom: 1px solid #000000;
+}
+
+.simple-modal-description {
+  padding-left: 10px;
+}
+
+.simple-modal-button {
+  margin-left: 10px;
+  border: none;
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 30px;
+  line-height: 20px;
+  font-family: "Roboto";
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  cursor: pointer;
+  &:hover {
+    background-color: #292929;
+    color: white;
+  }
+}

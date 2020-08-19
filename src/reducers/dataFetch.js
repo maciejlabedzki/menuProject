@@ -1,5 +1,10 @@
 const dataFetch = (
-  state = { data: null, loading: false, loaded: false, error: null },
+  state = {
+    data: null,
+    loading: true,
+    loaded: false,
+    error: null,
+  },
   action
 ) => {
   switch (action.type) {
@@ -10,7 +15,11 @@ const dataFetch = (
     case "LOADED":
       return { ...state, loading: false, loaded: true, data: action.payload };
     case "ERROR":
-      return { ...state, loading: false, error: action.payload };
+      return {
+        ...state,
+        loading: true,
+        error: action.payload,
+      };
     default:
       return state;
   }

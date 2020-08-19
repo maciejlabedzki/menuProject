@@ -13,6 +13,7 @@ import App from "./components/App/App";
 import thunk from "redux-thunk";
 import logger from "redux-logger";
 
+// REDUX STORE
 const store = createStore(rootReducer, applyMiddleware(thunk, logger));
 
 ReactDOM.render(
